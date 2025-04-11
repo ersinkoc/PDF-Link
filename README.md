@@ -2,6 +2,13 @@
 
 A PHP-based document management system for PDF files with QR code generation and tracking capabilities.
 
+## Domain Information
+
+The application is accessible through our official domain:
+- **Domain**: [pdfl.ink](https://pdfl.ink)
+- **Purpose**: Provides a short, memorable URL for sharing PDF documents
+- **Features**: Custom short URLs, analytics tracking, and direct PDF access
+
 ## Features
 
 - PDF document upload and management

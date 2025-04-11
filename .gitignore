@@ -1,0 +1,99 @@
+# PDF Link .gitignore
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# IDE and editor folders
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+.eclipse/
+.settings/
+nbproject/
+.netbeans/
+.phpstorm.meta.php
+.phpunit.result.cache
+
+# PHP specific
+/vendor/
+composer.lock
+composer.phar
+phpunit.xml
+.php_cs.cache
+.php-cs-fixer.cache
+.phpcs.xml
+.phpunit.result.cache
+
+# Environment files
+.env
+.env.backup
+.env.local
+.env.*.local
+.env.testing
+.env.production
+.env.development
+
+# Application specific (from README.md)
+/logs/*
+!/logs/.gitkeep
+/cache/*
+!/cache/.gitkeep
+/backups/*
+!/backups/.gitkeep
+/uploads/*
+!/uploads/.gitkeep
+/database/*.sqlite
+!/database/.gitkeep
+
+# Temporary files
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+temp/
+tmp/
+
+# Package manager files
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+node_modules/
+
+# Build files
+/build/
+/dist/
+/public/hot
+/public/storage
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.swo
+
+# Config files that might contain sensitive information
+config.php
+database.php
+settings.php
+credentials.php
+
+# Miscellaneous
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ddev
+.ddev/
+src/
